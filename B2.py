@@ -52,10 +52,7 @@ def drawHouse(height=50):
     t.setheading(60)
     t.fd(height*2)
 
-t.penup()
-t.setheading(90)
-t.fd(400)
-for i in range(50, 400, 50):
-    drawHouse(i)
+
+drawHouse(100)
 t.update()
 t.Screen().exitonclick()
